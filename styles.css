@@ -69,12 +69,17 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 80%;
+  border: 3px solid transparent;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+}
+header .background {
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100%;
 }
 .tag {
   background-color: #efefef;
@@ -86,7 +91,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
