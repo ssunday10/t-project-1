@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/IMG_5039.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -123,6 +123,12 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.ss {
+  background-color: #F1F1F1;
+text-align: center;
+padding: 20px;
 }
 
 footer {
@@ -210,3 +216,25 @@ a.social:hover {
 
 }
 
+.information {
+
+    text-align: center;
+    background: url('images/IMG_5042.JPG') no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.contact {
+  color: white;
+  text-align: center;
+}
+
+.contact {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
